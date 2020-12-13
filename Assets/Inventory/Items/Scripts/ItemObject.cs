@@ -13,6 +13,7 @@ public enum ItemType
 public abstract class ItemObject : ScriptableObject
 {
     public int Id;
+    public int maxQuantity = 1;
     public Sprite itemSprite;
     public ItemType type;
     [TextArea(15,20)]
@@ -23,13 +24,14 @@ public abstract class ItemObject : ScriptableObject
 public class Item
 {
     public int Id;
-
+    public int maxQuantity;
     public Sprite sprite;
     public string name;
 
     public Item(ItemObject item)
     {
         Id = item.Id;
+        maxQuantity = item.maxQuantity;
         sprite = item.itemSprite;
         name = item.name;
     }

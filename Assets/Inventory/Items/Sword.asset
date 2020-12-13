@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Sword
   m_EditorClassIdentifier: 
   Id: 0
+  maxQuantity: 1
   itemSprite: {fileID: 21300000, guid: a54ff1c829ccb5744a4cf9c8b327198e, type: 3}
   type: 0
   Description: The First Sword

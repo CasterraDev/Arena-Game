@@ -14,5 +14,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   savePath: /Inventory.data
   maxSlots: 6
+  droppedItemPrefab: {fileID: 5419083637848675277, guid: e7e4115751ff34b4d9a3038bd1ea62e5, type: 3}
   database: {fileID: 11400000, guid: 70979aca5a852504a9f6e2c1f029b9c6, type: 2}
-  list: []
+  list:
+    items:
+    - ID: 1
+      item:
+        Id: 1
+        maxQuantity: 4
+        sprite: {fileID: 21300000, guid: 6ce3bf612cdfa4248a60688613ceefe8, type: 3}
+        name: Cherries
+      amount: 4
+    - ID: 1
+      item:
+        Id: 1
+        maxQuantity: 4
+        sprite: {fileID: 21300000, guid: 6ce3bf612cdfa4248a60688613ceefe8, type: 3}
+        name: Cherries
+      amount: 4
+    - ID: 1
+      item:
+        Id: 1
+        maxQuantity: 4
+        sprite: {fileID: 21300000, guid: 6ce3bf612cdfa4248a60688613ceefe8, type: 3}
+        name: Cherries
+      amount: 4
+    - ID: 1
+      item:
+        Id: 1
+        maxQuantity: 4
+        sprite: {fileID: 21300000, guid: 6ce3bf612cdfa4248a60688613ceefe8, type: 3}
+        name: Cherries
+      amount: 4
+    - ID: 1
+      item:
+        Id: 1
+        maxQuantity: 4
+        sprite: {fileID: 21300000, guid: 6ce3bf612cdfa4248a60688613ceefe8, type: 3}
+        name: Cherries
+      amount: 2
+    - ID: -1
+      item:
+        Id: 0
+        maxQuantity: 0
+        sprite: {fileID: 0}
+        name: 
+      amount: 0
